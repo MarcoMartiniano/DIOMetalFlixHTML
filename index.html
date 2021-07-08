@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsivo-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!---owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--script-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>METALFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">METALFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Destaques</a>
+                <a href="#">Lives</a>
+                <a href="#">Assine já</a>               
+            </nav>
+        </div>   
+    </header>
+
+    <main>
+        <div class ="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Avantasia</h3>
+                <p class="descricao"> Tobias Sammet, Avantasia  - Moonglow</p>
+                
+            <div class="botoes">
+                <button role="button" class="botao", onclick="btnOnClickOuviragora()">
+                    <i class="fas fa-play"></i>
+                    OUVIR AGORA
+                </button>
+                <button role="button" class="botao" onclick="btnOnClickInfo()">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/capaAngraAngelsCry20thAnniversary.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaAngraAngesCry.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaAngraRebirth.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaAvantasiaMoonglow.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaAvantasiaTheMisteryOfTime.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaBlindGuardianLegacyOfTheDarkLands.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaEduFalaschiVeraCruz.jpeg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaHelloween2021.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaShamanRitualAlive.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capaTrjaTurunenInTheRaw.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0eb5066c7f.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
